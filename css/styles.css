@@ -1,0 +1,61 @@
+/* Цвет основного текста  #000000 */
+/* Вторичный цвет текста rgba(0, 0, 0, 0.8) */
+/* Белый #ffffff */
+/* Акцент #18A0FB */
+
+/* Вторичный цвет фона #F5F5F5 */
+
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --akcent-color: #18A0FB;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+/* Site-nav */
+.site-nav .link{
+    color: var(--akcent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--primary-text-color);
+}
+
+/* Hero */
+.hero .hero-title{
+    color: var(--primary-text-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Features */
+.features-list .title {
+    color: var(--primary-text-color);
+}
+
+.features-list .link{
+    color: var(--akcent-color);
+}
+
+/* Examples */
+
+.work-list .title {
+    color: var(--title-text-color)
+}
