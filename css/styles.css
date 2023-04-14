@@ -9,10 +9,12 @@
     --primary-text-color: rgba(0, 0, 0, 0.8);
     --title-text-color: #000000;
     --akcent-color: #18A0FB;
+
+    --primary-white-color: #ffffff;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 }
 
@@ -57,5 +59,22 @@ body {
 /* Examples */
 
 .work-list .title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    background-color: var(--akcent-color);
+    color: var(--primary-white-color);
+}
+
+.button.secondary {
+    background-color: var(--primary-white-color); 
+    color: var(--akcent-color);
 }
